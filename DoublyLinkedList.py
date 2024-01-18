@@ -196,8 +196,8 @@ class DoublyLinkedList:
     
 # Texting Remove
     
-my_doubly_linked_list = DoublyLinkedList(1)
-my_doubly_linked_list.append(2)
-my_doubly_linked_list.append(3)
-my_doubly_linked_list.remove_method_two(2)
-my_doubly_linked_list.print_list()
+# my_doubly_linked_list = DoublyLinkedList(1)
+# my_doubly_linked_list.append(2)
+# my_doubly_linked_list.append(3)
+# my_doubly_linked_list.remove_method_two(2)
+# my_doubly_linked_list.print_list()
