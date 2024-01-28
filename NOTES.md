@@ -79,3 +79,29 @@
 3. Feasible algorithms can be easily implemented using existing hardware infrastructure without using specialized resources.
 
 4. They are adopted easily for usage across fields due to their practical hardware requirements.
+
+# Data Flow Diagramming
+
+## What is a data flow diagram?
+
+A data flow diagram shows the way information flows through a process or system. It includes data inputs and outputs, data stores, and the various subprocesses the data moves through. DFDs are built using standardized symbols and notation to describe various entities and their relationships.
+
+![img of a data flow diagram](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/data-flow-diagram-7.svg)
+
+## Physical and Logical Data Flow Diagrams
+
+Logical data flow diagrams focus on **what** happens in a particular inforamtion flow.
+
+Physical data flow diagrams focus on **how** things happen in an information flow.
+
+## Data Flow Diagram Levels
+
+1. Level 0 DFDs - Also known as context diagrams, are the most basic data flow diagrams. They provide a broad view that is easily digestable but offers little detail.
+
+2. Level 1 DFDs - Are still a general overview but they go into more detail than a context diagram.
+
+3. Level 2+ DFDs - simple break processes down into more detailed sub-processes.
+
+# Classes
+
+![img breaking down classes](https://miro.medium.com/v2/resize:fit:828/format:webp/1*NxXw72-CDGp7b7pz2kga5g.png)
