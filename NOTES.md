@@ -110,7 +110,7 @@ A class is a user-defined blueprint or prototype from which objects are created.
 
 # Recursive Algorithms
 
-[a link](/Recursion.py)
+[Recursive Algorithm Example](/Recursion.py)
 
 ## What is Recursion?
 
@@ -139,3 +139,23 @@ Linear search is defined as a sequential search algorithm that starts at one end
 Binary Search is defined as a searching algorithm used in a **sorted array** bu repeatedly diving the search interval in half. The idea of a binary search is to use the information that the array iis sorted and reduce the time complexity to O(log N).
 
 ![gif of a binary search](https://d18l82el6cdm1i.cloudfront.net/uploads/bePceUMnSG-binary_search_gif.gif)
+
+# Sorting Algorithms
+
+[Good Resource - Sort Visualizer](https://www.sortvisualizer.com/) 
+
+## Selection Sort
+
+Selection Sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
+
+## Insertion Sort
+
+## Bubble Sort
+
+## Quick Sort
+
+## Merge Sort
+
+## Heap Sort
+
+## Radix Sort
