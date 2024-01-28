@@ -146,16 +146,93 @@ Binary Search is defined as a searching algorithm used in a **sorted array** bu 
 
 ## Selection Sort
 
+[Python Code Example](/SelectionSort.py)
+
+[gif of selection sort](https://miro.medium.com/v2/resize:fit:1144/1*5WXRN62ddiM_Gcf4GDdCZg.gif)
+
 Selection Sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
+
+Average Complexity - O(n^2)
+Best Case - O(n^2)
+**Worst Case - O(n^2)**
+Space Complexity - O(1)
 
 ## Insertion Sort
 
+[Python Code Example](/InsertionSort.py)
+
+[gif of inserstion sort](https://miro.medium.com/v2/resize:fit:1012/1*JP-wURjwf4k23U2G3GNQDw.gif)
+
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards with your hands. The array is virtually split into a sorted and an unsorted part. Values from the insorted part are picked and placed at the correct position when sorted.
+
+To sort an array of size N in ascending order iterate over the array and compare the current element (key) to its predecessor, if the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
+
+Average Complexity - O(n^2)
+Best Case - O(n)
+**Worst Case - O(n^2)**
+Space Complexity - O(1) 
+
 ## Bubble Sort
+
+[Python Code Example](/BubbleSort.py)
+
+[gif of bubble sort](https://miro.medium.com/v2/resize:fit:1400/1*-qR66X2iwdcjhaqq10y9JQ.gif)
+
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is high.
+
+In Bubble Sort algorithm, 
+
+Traverse from left and compare adjacent elements and the higher one is placed at right side. 
+In this way, the largest element is moved to the rightmost end at first. 
+This process is then continued to find the second largest and place it and so on until the data is sorted.
+
+Average Complexity - O(n^2)
+Best Case - O(n)
+**Worst Case -O(n^2)**
+Space Complexity - O(1)
 
 ## Quick Sort
 
+[Python Code Example](/QuickSort.py)
+
+[gif of quick sort](https://colab.research.google.com/drive/1vCuxn8JGjaM6l_0NMbqb1Zx0_2bf3AqU)
+
+Quick Sort is a sorting algorithm based on the divide and conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
+
+Average Complexity - 
+Best Case - 
+**Worst Case -**
+Space Complexity - 
+
 ## Merge Sort
+
+[Python Code Example]()
+
+[gif of  sort]()
+
+Average Complexity - 
+Best Case - 
+**Worst Case -** 
+Space Complexity - 
 
 ## Heap Sort
 
+[Python Code Example]()
+
+[gif of  sort]()
+
+Average Complexity - 
+Best Case - 
+**Worst Case -** 
+Space Complexity - 
+
 ## Radix Sort
+
+[Python Code Example]()
+
+[gif of  sort]()
+
+Average Complexity - 
+Best Case - 
+**Worst Case -** 
+Space Complexity - 
