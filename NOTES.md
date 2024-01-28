@@ -105,3 +105,37 @@ Physical data flow diagrams focus on **how** things happen in an information flo
 # Classes
 
 ![img breaking down classes](https://miro.medium.com/v2/resize:fit:828/format:webp/1*NxXw72-CDGp7b7pz2kga5g.png)
+
+A class is a user-defined blueprint or prototype from which objects are created.
+
+# Recursive Algorithms
+
+[a link](/Recursion.py)
+
+## What is Recursion?
+
+Recursive algorithm calls itself with smaller input values and returns the result for the current input by carrying out basic operations on the returned value for the smaller input.
+
+## Recursive Algorithm requirements
+
+1. Base case - The simplest instance of a problem, consisting of a condition that terminates the recursive function. This base case evaluates the result when a given condition is met.
+
+2. Recurive Step - It computes the result by making recursive calls to the same function, but with the inputs desscreased in size or complexity.
+
+## Call Stack
+
+Programming languages use call stacks to manage the invocation of recursive functions. Like a stack, a call stack for a recursive functions calls the last function in its stack when the base case is met.
+
+![gif of a call stack iterating through a recursive function](https://content.codecademy.com/practice/art-for-practice/stackcall.gif)
+
+# Linear Search
+
+Linear search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues until the end of the data set.
+
+![gif of a linear search](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
+
+# Binary Search
+
+Binary Search is defined as a searching algorithm used in a **sorted array** bu repeatedly diving the search interval in half. The idea of a binary search is to use the information that the array iis sorted and reduce the time complexity to O(log N).
+
+![gif of a binary search](https://d18l82el6cdm1i.cloudfront.net/uploads/bePceUMnSG-binary_search_gif.gif)
