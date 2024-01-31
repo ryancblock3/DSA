@@ -260,11 +260,11 @@ Big O defines the runtime required to execute an algorithm by identifying how th
 
 1. **Array** - A data structure that stores a fixed-size sequential collection of elements of the same type. Elements in an array can be accessed using their index, which starts from 0.
 
-![Array Data Structure](https://www.geeksforgeeks.org/array-data-structure/)
+![Array Data Structure](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726162247/Array-data-structure.png)
 
 2. **Linked List** - A data structure consisting of a sequence of nodes, each containing an element and a reference to the next node. Linked lists can be used to implement dynamic data structures, where the size of the data changes frequently.
-
-![Linked List Data Structure](https://medium.com/@ytsuji91/data-structures-in-javascript-part-1-linked-lists-94301942499d)
+d
+![Linked List Data Structure](https://media.geeksforgeeks.org/wp-content/uploads/20220829110944/LLdrawio.png)
 
 3. **Binary Search Tree** - A binary tree is a data structure where each node has at most two children, and the left child is always less than its parent, while the right child is always greater than its parent. Binary search trees are commonly used for searching and storing operations.
 
