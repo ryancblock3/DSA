@@ -101,13 +101,59 @@ List Comprehensions has three componets
 
 ## Sorting Lists
 
+sort() perfrorms an in-place rearranging of list elements, sorting from lowest to highest.
+
+sorted() same as sort() but returns a new list and the old list remains unmodified.
+
+Key - SPecifies a function to be applied to each element before being compared
+
 ## Command-line Arguments
+
+Command-Line Arguments - values entered by a user when running a program from command line
 
 ## Dictionaries
 
+Dictionaries contain references to object as key-value pairs where each key is associated with a value
+
+dict implements a dictionary in pyton
+
+Appraches to Create a dict
+    1. wraps braces {} around key-value pairs and/or variables
+        {'Jose': 'A+', 'Gino': 'C-'}
+    2. Dictionary Comprehension - evaluates a loop to creat a new dict.
+    3. dict() built in function
+        dict(Bobby='805-555-2232', Johnny='951-555-0055')
+
+![common dict operations](./images/dict-operations.png)
+
+Dictionaries are mutable
+
 ## Dictionary Methods
+
+Dictionary Method - A function provided by the dictionary type that operates on a specific dictionary object
+
+![dict methods](./images/dict-methods.png)
 
 ## Iterating Over a Dictionary
 
+Hash - A transformation of the key into a unique value that allows the interpereter to perform a fast lookup.
+
+dict.item() - returns a view object that yields (key, value) tuples
+dict.keys() - returnds dict keys
+dict.values() - returns dict values
+
 ## Dictionary Nesting
+
+Nested Dictionaries - Dictionary contains another dictionary as a value.
+
+students = {}
+students ['Jose'] = {'Grade': 'A+', 'StudentID': 22321}
+
+print('Jose:')
+
+print(f' Grade: {students ["Jose"]["Grade"]}')
+
+print(f' ID: {students["Jose"]["StudentID"]}')
+
+Data Structure - Method of organizing data in a logical and coherent fashion.
 
