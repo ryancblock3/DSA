@@ -112,3 +112,22 @@ Unbounded Queue - Queue without a max length, can grow indefinitely
 [Queue Python Code](../Queues.py)
 
 ## Deque Abstract Data Type
+
+Deque (pronounced "deck", short for double ended queue) - ADT which items can be inserted and removed at both the front and the back
+
+PushFront - inserts item at front of the deque
+
+PushBack - inserts item at the back of the deque
+
+PopFront - removes and returns item at front of deque
+
+PopBack - removes and returns item at back of deque
+
+PeekFront - returns but does not remove item at front of deque
+
+PeekBack - returns but does not remove item at back of deque
+
+isEmpty - Returns True if deque is empty
+
+GetLength - Returns the number of items in deque
+
