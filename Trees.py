@@ -57,6 +57,7 @@ class BinarySearchTree:
         return False
     
     def __r_contains(self, current_node, value):
+        # Recursive helper function to check if a value exists in the subtree
         if current_node == None:
             return False
         if value == current_node.value:
@@ -67,9 +68,11 @@ class BinarySearchTree:
             return self.__r_contains(current_node.right, value)
     
     def r_contains(self, value):
+        # Wrapper function to call the recursive contains function starting from the root
         return self.__r_contains(self.root, value)
     
     def __r_insert(self, current_node, value):
+        # Recursive helper function to insert a value into the subtree
         if current_node == None:
             return Node(value)
         if value < current_node.value:
@@ -79,16 +82,19 @@ class BinarySearchTree:
         return current_node
 
     def r_insert(self, value):
+        # Wrapper function to call the recursive insert function starting from the root
         if self.root == None:
             self.root = Node(value)    
         self.__r_insert(self.root, value)
 
     def min_value(self, current_node):
+        # Find the minimum value in the subtree
         while current_node.left is not None:
             current_node = current_node.left
         return current_node.value
 
     def __delete_node(self, current_node, value):
+        # Recursive helper function to delete a node with a given value
         if current_node == None:
             return None
         if value < current_node.value:
@@ -109,9 +115,11 @@ class BinarySearchTree:
         return current_node
     
     def delete_node(self, value):
+        # Wrapper function to call the recursive delete function starting from the root
         self.root = self.__delete_node(self.root, value)
 
     def BFS(self):
+        # Perform Breadth-First Search on the binary search tree
         current_node = self.root
         queue = []
         results = []
@@ -127,6 +135,7 @@ class BinarySearchTree:
         return results
     
     def dfs_pre_order(self):
+        # Perform Depth-First Search Pre-Order on the binary search tree
         results = []
         def traverse(current_node):
             results.append(current_node.value)
@@ -138,6 +147,7 @@ class BinarySearchTree:
         return results
     
     def dfs_post_order(self):
+        # Perform Depth-First Search Post-Order on the binary search tree
         results = []
         def traverse(current_node):    
             if current_node.left is not None:
@@ -149,6 +159,7 @@ class BinarySearchTree:
         return results
     
     def dfs_in_order(self):
+        # Perform Depth-First Search In-Order on the binary search tree
         results = []
         def traverse(current_node):    
             if current_node.left is not None:
@@ -158,6 +169,7 @@ class BinarySearchTree:
                 traverse(current_node.right)
         traverse(self.root)
         return results
+
 
 
 # Testing Constructor
